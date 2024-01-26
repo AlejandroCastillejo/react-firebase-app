@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+
+  .button {
+    margin: 5px;
+    height: 22px;
+    width: 40px;
+    padding: 0;
+    background-color: grey;
+    font-weight: bolder;
+
+    &:disabled {
+      background-color: lightgrey;
+      cursor: initial;
+    }
+  }
+
+  .current-page {
+    background-color: lightgrey;
+  }
+}
